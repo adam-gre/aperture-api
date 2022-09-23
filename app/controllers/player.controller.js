@@ -85,7 +85,7 @@ exports.getAllBanned = (req, res) => {
   });
 };
 
-// Update a Tutorial identified by the id in the request
+// Update a Player identified by the id in the request
 exports.update = (req, res) => {   
   // Validate request
   if (!req.body) {
@@ -116,12 +116,12 @@ exports.update = (req, res) => {
   });
 };
 
-// Delete a Tutorial with the specified id in the request
+// Delete a Player with the specified id in the request
 exports.delete = (req, res) => {
   
 };
 
-// Delete all Tutorials from the database.
+// Delete all Players from the database.
 exports.deleteAll = (req, res) => {
   
 };

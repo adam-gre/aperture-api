@@ -15,7 +15,7 @@ module.exports = app => {
     // // Retrieve a single player with Steam ID
     router.post("/:steam_id", players.getById);
   
-    // // Update a Tutorial with id
+    // // Update a Player with id
     router.put("/:steam_id", players.update);
   
     app.use('/api/player', router);
